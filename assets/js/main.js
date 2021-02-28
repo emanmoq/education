@@ -37,6 +37,7 @@ jQuery(function ($) {
       },
       600: {
         items: 2,
+        margin:100,
       },
       1000: {
         items: 3,

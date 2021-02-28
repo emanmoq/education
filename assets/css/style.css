@@ -671,91 +671,109 @@ font-size:17px;
 }
 @media(min-width:768px) and (max-width:1023px){
     body{
-        font-size:14px
+        font-size:13px;overflow-x: hidden;
+    }
+    .subscribeBox{
+        width:60%;
     }
     .owl-carousel .owl-stage-outer{
-        overflow: hidden;
-        padding:20px 5;
-    }
-    .clientBox{
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    }
-    .aboutUs .container{
-padding:50px 20px;
-border-radius: 0;;
-    }
-   .marginAbout{
-       margin-top:0;
-   }
-   .clients{
-       padding:50px 0;
-   }
-   .sectionTitle{
-       margin-bottom:20px;
-   }
-   .services{
-    padding:50px 0;
+    overflow: hidden;
 }
-.sectionTitle{
-    margin-bottom:50px;
+
+.heroImg{
+    width:44%;
+    height:100%;
+    overflow: hidden;
 }
-.aboutUs .container{
-    padding:50px 20px;
-    border-radius: 0;;
+.heroImg img{
+    height:100%;
+    width:auto
 }
-footer{
-    padding:20px 0;
+
+.heroText h5 p{
+    font-size:1em
 }
-.subscribe{
-    top:auto;
-    margin-bottom:20px;
+.trainersSlider{
+    margin-top:50px;
 }
-.sectionTitle{
-    margin-bottom:50px;
-}
-.aboutUs .container{
-    padding:50px 20px;
-    border-radius: 0;;
-}
+
     .hero{
         padding:20px 0;
     }
-  
-    .socialIcons{
-        text-align: center;
+    .subscribeBox .form-control{
+        width:100%;
     }
+    .contactBtn{
+        width:100%;
+    float: none;
+    }
+    .contactForm{
+        padding: 20px 10px;;
+    }
+    .subscribeBox .form-group{
+        width:58%;
+    }
+.logo{
+    width:105px;
+}
+
+    .join{
+        width:100%;
+        MARGIN:auto;
+        margin-top:20px;
+    }
+  
+.aboutUs .sectionTitle{
+    margin-top:50px;
+}
+.sectionTitle{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.sectionTitle h4{
+    font-size:2.5em;
+}
+
+.aboutImg{
+    height: auto;
+}
+
+    .socialIcons{
+        text-align: right;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+ 
     .socialIcons li{
         float: none;
     }
-  .marginBox{
-      margin-top:0;
-  }
-    .heroText{
-        margin-top: 20px;
+    .contactUs{
+        padding:50px 0;
     }
-
-    
-    .marginForm{
-        margin-left:24px;
+    .aboutUs{
+        padding: 50px 0;
     }
-    .navbar-expand-lg .navbar-collapse{
-        display: flex;
-        flex-basis: auto;
-         }
-        .navbar-toggler{
-        
-            display: none;
-         } 
-    .navbar{
-        width:70%;
+    .courses{
+        padding:50px 0
+    }
+    .trainers{
+        padding:20px 0;
+        text-align: center;
+    }
+    .trainerImg{
+        position: relative;
+        top:auto;
+        right: auto;
+        margin:auto;
+        margin-bottom:20px;
+    }
+    .copyRights{
         margin-top:20px;
     }
-         .navbar-nav {
-            display: -ms-flexbox;
-            display: flex;}
-            .navbar-expand-lg .navbar-nav {
-                -ms-flex-direction: row;
-                flex-direction: row;
-            }
-    
+    .trainersItem{
+        padding:50px 0 20px
+    }
+    .heroText{
+        margin-top: 50px;
+    }
 }
