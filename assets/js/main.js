@@ -16,10 +16,12 @@ jQuery(function ($) {
         items: 2,
       },
       1000: {
-        items: 3,
+        items: 2,
 
+      },
+      1200:{
+        items:3
       }
-      
 
     }
   });
@@ -41,7 +43,11 @@ jQuery(function ($) {
       },
       1000: {
         items: 3,
+        margin:70
 
+      },
+      1300:{
+        items:3
       }
       
 

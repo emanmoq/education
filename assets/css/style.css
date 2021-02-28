@@ -777,3 +777,31 @@ font-size:17px;
         margin-top: 50px;
     }
 }
+@media(max-width:1200px){
+    .owl-carousel .owl-stage-outer{
+        overflow:hidden;
+    padding:70px 0;
+    }
+    .subscribeBox{
+        width:70%;
+    }
+    .subscribeBox .form-group{
+        width:60%;
+    }
+    .subscribeBox .form-control{
+        width:100%;
+    }
+    .logo{
+        width:120px;
+    }
+    .heroText{
+        margin-top:50px;
+    }
+    .heroImg {
+        height:100%;
+    overflow:hidden;    }
+    .heroImg img{
+        width:auto;
+        height: 100%;
+    }
+}
